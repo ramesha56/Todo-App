@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://rukminim2.flixcart.com/image/850/1000/ku04o7k0/sticker/e/k/1/medium-wall-sticker-60-sud-ws144-sudrashya-original-imag77bk6axfkeky.jpeg?q=20&crop=false);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(135deg, #0f367e, #e3eeff); */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+.header-image {
+  width: 100%;
+  max-width: 200px; 
+  display: block;
+  margin: 0 auto 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.89); 
+}
+
+  
+  .container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #0a1a2df1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #d6af4c;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    color: #0a1a2d;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #d6af4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #b3923b;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li span {
+    flex: 1;
+    word-wrap: break-word;
+    margin-right: 10px;
+  }
+  
+  li .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  li button:hover {
+    opacity: 0.8;
+  }
+  
+  li button.edit-btn {
+    color: green;
+  }
+  
+  li button.delete-btn {
+    color: red;
+  }
+  
+  li button i {
+    margin: 0;
+    pointer-events: none;
+  }
+  
+  #clear-all-btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #clear-all-btn:hover {
+    background-color: #e63946;
+  }
+  
+/* 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url(https://rukminim2.flixcart.com/image/850/1000/ku04o7k0/sticker/e/k/1/medium-wall-sticker-60-sud-ws144-sudrashya-original-imag77bk6axfkeky.jpeg?q=20&crop=false);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+
+.header-image {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.89);
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  background-color: #0a1a2df1;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px #d6af4c;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #0a1a2d;
+  font-size: 22px; 
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #d6af4c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #b3923b;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+li span {
+  flex: 1;
+  word-wrap: break-word;
+  margin-right: 10px;
+}
+
+li .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+li button:hover {
+  opacity: 0.8;
+}
+
+li button.edit-btn {
+  color: green;
+}
+
+li button.delete-btn {
+  color: red;
+}
+
+li button i {
+  margin: 0;
+  pointer-events: none;
+}
+
+#clear-all-btn {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#clear-all-btn:hover {
+  background-color: #e63946;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    max-width: 350px;
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  .input-section {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  input[type="text"] {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  ul li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  li span {
+    margin-bottom: 10px;
+  }
+
+  li .buttons {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  input[type="text"] {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 7px 10px;
+  }
+
+  ul li {
+    padding: 8px;
+  }
+
+  li span {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  li .buttons button {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  #clear-all-btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+} */
